@@ -43,6 +43,7 @@ fn main() {
         }
     }
     println!("{} wins out of {} tries", wins, iterations);
+    println!("{}% win rate", (wins as f64 / iterations as f64) * 100.0);
 
     // reset wins
     wins = 0;
@@ -56,6 +57,7 @@ fn main() {
         }
     }
     println!("{} wins out of {} tries", wins, iterations);
+    println!("{}% win rate", (wins as f64 / iterations as f64) * 100.0);
 
 }
 
