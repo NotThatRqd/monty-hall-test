@@ -31,7 +31,7 @@ fn main() {
 
     println!("This program will simulate the Monty Hall problem");
 
-    println!("How many iterations of the test would you like to run? (u32)");
+    println!("How many iterations of the test would you like to run? (u64)");
     let iterations = unsign64();
 
     let mut wins = 0;
